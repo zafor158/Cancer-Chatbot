@@ -11,8 +11,8 @@ We use a book named Cancer Biology Third Edition written by Roger J.B. King & Mi
 
 ## Brief Contents that exist in the book:
 
-*1.What is cancer?
-*2.Natural history: the life of a cancer
+* 1.What is cancer?
+* 2.Natural history: the life of a cancer
 3.Pathology: defining a neoplasm 32
 4.Epidemiology: identifying causes for human cancers
 5.Oncogenes, tumour suppressor genes and viruses
