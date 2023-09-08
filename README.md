@@ -44,6 +44,23 @@ The text is split into chunks of a certain size.
   
 ![Model_training](https://github.com/Taukir158/Cancer-Chatbot/assets/98481506/3ca8543a-a2d1-43d0-90f7-d799b40c9d21)
 
+# Results and Discussion
+## Main Findings
+* The size of the data is proportional to the time it takes to create the docs-string.
+* The model takes some time to respond, but it usually gives the correct answer.
+
+## Challenges
+* One of the most challenging parts was understanding how the LLM works, how to train a model, and what indexing is.
+* Setting up Streamlit in Colab was also challenging.
+
+# Conclusion
+In conclusion, this project developed a cancer chatbot using a large language model (LLM). The chatbot was trained on a dataset of cancer-related text, so it can answer a some range of questions about cancer. The project also explored the use of indexing.
+
+## Some potential future improvements or directions for further research include:
+* Using a larger dataset of cancer-related text to train the chatbot.
+* Using more advance model to have better and faster responses
+* Integrating the chatbot with other healthcare resources, such as medical records and clinical decision support systems.
+
 
 
 
