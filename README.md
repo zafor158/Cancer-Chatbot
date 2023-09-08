@@ -6,3 +6,20 @@ Cancer is a deadly disease that can be difficult to understand. This can be espe
 Develop a chatbot that can answer questions about cancer.
 
 Train the LLM model on a pdf dataset of cancer-related text.
+# Data Collection and Preprocessing
+### We use a book named Cancer Biology Third Edition written by Roger J.B. King & Mike W. Robins. The book is about cancer, its history, the causes of human cancers, and many more details.
+Brief Contents that exist in the book:
+
+### What is cancer?
+Natural history: the life of a cancer
+Pathology: defining a neoplasm 32
+Epidemiology: identifying causes for human cancers
+Oncogenes, tumour suppressor genes and viruses
+Chemical and radiation carcinogenesis 88
+Mutations, DNA repair and genetic instability
+Familial cancers
+Growth: a balance of cell proliferation, death and differentiation
+Responding to the environment: growth regulation and signal transduction
+Invasion and metastasis
+Principles of cancer treatment
+Approaches to cancer prevention
