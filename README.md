@@ -1,3 +1,4 @@
+
 # Cancer-Chatbot
 Cancer is a complex disease that can be difficult to understand. This project develops a chatbot that can answer questions about cancer using a large language model (LLM). The LLM is trained on a dataset of cancer-related text, so it can answer a some range of questions about cancer.
 
@@ -28,7 +29,7 @@ We use a book named Cancer Biology Third Edition written by Roger J.B. King & Mi
 * Approaches to cancer prevention
 
 # Model Training
-
+![Model_training](https://github.com/Taukir158/Cancer-Chatbot/assets/98481506/3ca8543a-a2d1-43d0-90f7-d799b40c9d21)
 
 
 
