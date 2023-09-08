@@ -36,11 +36,12 @@ Here are the steps in the indexing method:
 
 The text is split into chunks of a certain size.
 
-* 1.Each chunk is embedded into a vector of floating-point numbers.
-* 2.The vectors are stored in a knowledge base.
-* 3.When a user queries the chatbot, the query text is also embedded into a vector.
-* 4.The chatbot compares the query vector to the vectors in the knowledge base.
-* 5.The most similar vectors are then returned to the user.
+* Each chunk is embedded into a vector of floating-point numbers.
+* The vectors are stored in a knowledge base.
+* When a user queries the chatbot, the query text is also embedded into a vector.
+* The chatbot compares the query vector to the vectors in the knowledge base.
+* The most similar vectors are then returned to the user.
+  
 ![Model_training](https://github.com/Taukir158/Cancer-Chatbot/assets/98481506/3ca8543a-a2d1-43d0-90f7-d799b40c9d21)
 
 
