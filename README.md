@@ -27,6 +27,9 @@ We use a book named Cancer Biology Third Edition written by Roger J.B. King & Mi
 * Principles of cancer treatment
 * Approaches to cancer prevention
 
+# Model Training
+
+
 
 
 
