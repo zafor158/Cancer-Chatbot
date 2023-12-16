@@ -13,7 +13,7 @@ from langchain.chains.question_answering import load_qa_chain
 import pinecone
 import os
 
-loader = PyPDFLoader("cancer_data.pdf")
+loader = PyPDFLoader("Cancer_chat_bot.zip/cancer_data.pdf")
 
 data = loader.load()
 
