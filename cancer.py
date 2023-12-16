@@ -1,5 +1,5 @@
 ##%%writefile app.py
-
+pip install PyPDFLoader
 import streamlit as st
 import random
 import time
