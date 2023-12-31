@@ -25,8 +25,8 @@ docs=text_splitter.split_documents(data)
 
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY', '0f834287-783e-450f-8fb2-d07e1f4df540')
-PINECONE_API_ENV = os.environ.get('PINECONE_API_ENV', 'us-west4-gcp-free')
+PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY', '2e51597b-dc66-40e9-b459-7616de83716d')
+PINECONE_API_ENV = os.environ.get('PINECONE_API_ENV', 'gcp-starter')
 
 
 embeddings=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
@@ -37,7 +37,7 @@ pinecone.init(
     api_key=PINECONE_API_KEY,  # find at app.pinecone.io
     environment=PINECONE_API_ENV  # next to api key in console
 )
-index_name = "langchainpinecone" # put in the name of your pinecone index here
+index_name = "cancerpinecone" # put in the name of your pinecone index here
 
 
 docsearch=Pinecone.from_texts([t.page_content for t in docs], embeddings, index_name=index_name)
